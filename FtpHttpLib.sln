@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{F5DFDBBF-3B24-4AD8-8C2E-2120F089FF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpLib", "FtpLib\FtpLib\FtpLib.csproj", "{86A841F5-74FE-4738-9378-9B420C2B6C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpDemo", "Samples\FTP\FtpDemo\FtpDemo.csproj", "{43FE697B-9A19-4004-BE63-9D67468E1B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpDownloaderDemo", "Samples\HttpDownloader\HttpDownloaderDemo\HttpDownloaderDemo.csproj", "{6C49CDE2-F733-4387-82FD-4560A1210F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpDownloaderWithProxyDemo", "Samples\HttpDownloader\HttpDownloaderWithProxyDemo\HttpDownloaderWithProxyDemo.csproj", "{056E5156-9F86-44F2-ABD8-0C06628E2E7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A841F5-74FE-4738-9378-9B420C2B6C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A841F5-74FE-4738-9378-9B420C2B6C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A841F5-74FE-4738-9378-9B420C2B6C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A841F5-74FE-4738-9378-9B420C2B6C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43FE697B-9A19-4004-BE63-9D67468E1B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FE697B-9A19-4004-BE63-9D67468E1B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FE697B-9A19-4004-BE63-9D67468E1B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FE697B-9A19-4004-BE63-9D67468E1B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C49CDE2-F733-4387-82FD-4560A1210F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C49CDE2-F733-4387-82FD-4560A1210F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C49CDE2-F733-4387-82FD-4560A1210F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C49CDE2-F733-4387-82FD-4560A1210F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056E5156-9F86-44F2-ABD8-0C06628E2E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056E5156-9F86-44F2-ABD8-0C06628E2E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056E5156-9F86-44F2-ABD8-0C06628E2E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056E5156-9F86-44F2-ABD8-0C06628E2E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43FE697B-9A19-4004-BE63-9D67468E1B78} = {F5DFDBBF-3B24-4AD8-8C2E-2120F089FF00}
+		{6C49CDE2-F733-4387-82FD-4560A1210F5A} = {F5DFDBBF-3B24-4AD8-8C2E-2120F089FF00}
+		{056E5156-9F86-44F2-ABD8-0C06628E2E7B} = {F5DFDBBF-3B24-4AD8-8C2E-2120F089FF00}
+	EndGlobalSection
+EndGlobal
